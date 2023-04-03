@@ -5,4 +5,4 @@ aliases:
 
 # többdimenziós normális eloszlás
 ![[Pasted image 20230314223141.png]]
-#Szeidl_sztochajegyzet 
+#Szeidl/sztochajegyzet 

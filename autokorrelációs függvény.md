@@ -4,4 +4,4 @@ aliases:
 ---
 # autokorrelációs függvény
 ![[Pasted image 20230314224627.png]]
-#Szeidl_sztochajegyzet 
+#Szeidl/sztochajegyzet 
