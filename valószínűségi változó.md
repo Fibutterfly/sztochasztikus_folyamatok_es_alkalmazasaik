@@ -1,11 +1,16 @@
 ---
 tags: OE/ALKMAT/Sztocha 
-aliases: ["vv"]
+aliases: ["vv", "valószínűségi változók","valószínűségi változónak"]
 ---
 
 # valószínűségi változó definíciója
-![[Pasted image 20230314214159.png]]
-#Michelberger_alkalmazott_folyamatstatisztika 
+Legyen:
+- $\Omega$ egy nem üres halmaz
+- $\{\omega : X(\omega) < x\} \in \mathcal{A}$
+- $x \in \Bbb{R}$
+- $\mathcal{A}$ az $\Omega$ részhalmazaiból alkotott esemény $\sigma$-algebrája (tehát $(\Omega, \mathcal{A})$ mérhető tér)
+Akkor $X: \Omega \to \Bbb{R}$ függvényt valószínűségi változónak hívunk
+#Michelberger/alkalmazott_folyamatstatisztika 
 
 # valószínűségi változók függetlensége
 ![[Pasted image 20230314222741.png]]

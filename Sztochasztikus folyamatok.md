@@ -1,6 +1,6 @@
 ---
 tags: OE/ALKMAT/Sztocha 
-aliases:
+aliases: ["sztochasztikus folyamat"]
 ---
 # Sztochasztikus folyamatok fogalma
 
