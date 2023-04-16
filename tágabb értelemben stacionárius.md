@@ -1,6 +1,6 @@
 ---
 tags: OE/ALKMAT/Sztocha 
-aliases: ["stacionárius", "autó-kovariancia fügvény"]
+aliases: ["stacionárius", "autó-kovariancia fügvény", "stacionárius folyamat"]
 ---
 
 # tágabb értelemben stacionárius

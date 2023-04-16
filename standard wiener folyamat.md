@@ -1,6 +1,6 @@
 ---
 tags: OE/ALKMAT/Sztocha 
-aliases: ["Brown mozgás","wiener", "wiener folyamat", "standard fehérzaj"]
+aliases: ["Brown mozgás","wiener", "wiener folyamat"]
 ---
 # standard wiener folyamat
 ![[Pasted image 20230403195335.png]]

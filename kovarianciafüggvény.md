@@ -1,6 +1,6 @@
 ---
 tags: OE/ALKMAT/Sztocha 
-aliases:
+aliases: ["kovarianciafüggvényére"]
 ---
 # kovarianciafüggvény
 $$ \begin{aligned}
@@ -34,3 +34,15 @@ Ha a két változó független, akkor az egyenlőség akkor és csak akkor áll 
 6. **Két független változó kovarianciája nulla**: Ha $X$ és $Y$ független változók, akkor a kovarianciafüggvényük zérus:
 
 $$cov(X, Y) = 0$$
+
+# Kovarianciafüggvény becslése
+A becsléshez használt összefüggések a következőek:
+$$
+\begin{aligned}
+	\hat{R}_{1,k} = \cfrac{1}{T}\sum_{j=1}^{T -|k|}(X_j - \mu_X)(X_{j+|k|} -\mu_X) \\
+	\bar{R}_{1,k} = \cfrac{1}{T-|k|} \sum_{j=1}^{T - |k|}(X_j - \mu_X)(X_{j+ |k|} - \mu_X) 
+\end{aligned}$$
+Ahol:
+- $T$ hosszú folyamatunk van
+- $k$ a "késeltetés" két megfigyelés között
+- $\mu_X$ a [[várható érték]], ha ez nem ismert érdemes becsülni.

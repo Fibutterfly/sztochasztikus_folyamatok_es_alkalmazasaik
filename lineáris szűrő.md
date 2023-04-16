@@ -3,5 +3,14 @@ tags: OE/ALKMAT/Sztocha
 aliases: ["lineáris szűrők","lineáris transzformáció", "lineáris transzformációk", "lineáris operátor", "lineáris operátorok"]
 ---
 # lineáris szűrő
-![[Pasted image 20230403213405.png]]
+Lineáris szűrőt jelölje $L$
+
+$$L(X_t) = \sum_{s = -\infty}^\infty h(t-s)X_s$$
+- $X_t$ egy vagy több dimenziós [[tágabb értelemben stacionárius|stacionárius]] folyamat
+	- Van a folyamatnak $R_x(u)$-val definiált kovarianciafüggvénye
+	- $g_X(\lambda)$ [[spektrális sűrűségfüggvény|spektrum]] is létezik
+	- $E(X_t) \equiv 0$
+- $h(t)$ függvény eleget tesz a [[szűrő koherenciafeltétel|szűrő koherenciafeltételnek]] 
+$$\sum_{u = -\infty} ^\infty \sum_{v = -\infty}^\infty h(u) R_X(v-u) h^T(v) < \infty$$
+
 #Szeidl/sztochajegyzet 

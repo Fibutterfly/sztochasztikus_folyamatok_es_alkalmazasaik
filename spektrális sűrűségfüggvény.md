@@ -1,6 +1,6 @@
 ---
 tags: OE/ALKMAT/Sztocha 
-aliases: ["spektrális sűrűségfüggvénye"]
+aliases: ["spektrális sűrűségfüggvénye", "spektrum", "spektruma","spektrális sűrűségfüggvényére", "spektrumára", "spektrumának"]
 ---
 # spektrális sűrűségfüggvény
 A [[Herglotz-tétel]] szerint, a kovarianciafüggvényt kitudjuk fejezni a következő képen:

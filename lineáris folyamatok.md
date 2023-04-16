@@ -1,17 +1,20 @@
 ---
 tags: Szeidl/sztochajegyzet 
-aliases:
+aliases: ["lineáris folyamat"]
 ---
 
 # lineáris folyamatok
 - [[Lineáris szűrők]]
 - ARMA folyamatok
 - Lineáris előrejezés
-- Wiener-szűrő
+- [[standard wiener folyamat|Wiener]]-szűrő
 - Kálmán-szűrő
-![[Pasted image 20230403210413.png]]
-#Szeidl/sztochajegyzet 
+Azt a $X_t$ folyamatot nevezzük lineáris folyamatnak, amely teljesíti  a következő:
+$$X_t = \sum_{s= -\infty}^{\infty} a_s \epsilon_{t-s}$$
+Ahol:
+- $X_t$ [[Sztochasztikus folyamatok|sztochasztikus folyamat]]
+- $a_s \in \mathbb{R}$, $\sum_{s = - \infty}^{\infty} a_s^2 < \infty$
+- $\forall \epsilon$ [[fehérzaj folyamat]], $\sigma_\epsilon^2 > 0$
+- $\lim_{m,n \to \infty} E \left(X_t - \sum_{s = -m}^n a_s \epsilon_{t-s} \right)^2 = 0$
 
-# Kauzális folyamatok
-![[Pasted image 20230403211155.png]]
 #Szeidl/sztochajegyzet 

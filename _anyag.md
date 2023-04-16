@@ -36,7 +36,7 @@
 ![[időben diszkrét folyamatok#időben diszkrét folyamatok]]
 ![[standard wiener folyamat#standard wiener folyamat]]
 ![[lineáris folyamatok#lineáris folyamatok]]
-![[kovaranciafüggvény#kovarianciafüggvény]]
+![[kovarianciafüggvény#kovarianciafüggvény]]
 ![[harmonikus folyamat#harmonikus folyamat]]
 ![[lineáris folyamatok#Kauzális folyamatok]]
 ![[ARMA folyamat#ARMA folyamat]]
