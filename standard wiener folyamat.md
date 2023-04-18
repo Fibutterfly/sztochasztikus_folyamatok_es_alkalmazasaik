@@ -2,8 +2,17 @@
 tags: OE/ALKMAT/Sztocha 
 aliases: ["Brown mozgás","wiener", "wiener folyamat"]
 ---
+# wiener folyamat
+Akkor nevezünk egy folyamatot Wiener folyamatnak ($W(t), t\ge 0$), ha következő tulajdonságokat teljesítik
+- független növekményű [[Gauss-folyamat|Gauss folyamat]]
+- Trajektóriái 1 valószínűséggel folytonosak
+- $W(0) = 0$
+- [[várható érték|Várható értéke]] 0, minden $t$-re
+- $VAR(W(t)) = \sigma^2 * t$
+- $t$ időváltozó, $t \ge 0$
+#Szeidl/sztochajegyzet 
 # standard wiener folyamat
-![[Pasted image 20230403195335.png]]
+Amennyiben a Wiener folyamat teljesíti, hogy $\sigma = 1$ akkor azt standard Wiener folyamatnak nevezzük.
 #Szeidl/sztochajegyzet
 
 # wiener folyamat tulajdonságai
@@ -25,12 +34,24 @@ aliases: ["Brown mozgás","wiener", "wiener folyamat"]
 ![[Pasted image 20230403195900.png]]
 ![[Pasted image 20230403195910.png]]
 # Wiener-folyamat konstrukciója
-![[Pasted image 20230403195954.png]]
+A Wiener folyamat konstrukciójának általános alakja:
+$$W(t) = \sum_{k=0}^{\infty}X_k \int_0^t \phi_k (u) du$$
+- $t$ az idő változó
+	- $t$-t elegendő $[0,1]$ intervallumon megadni, mert független növekményű [[Gauss-folyamat|Gauss folyamatról]] van szó 
+- $X_k \sim N(0,1)$
+- $\phi$ ortonormált bázis a $\mathcal{L}^2[0,1]$ [[L2 függvénytér|L2 függvénytéren]]
+#Szeidl/sztochajegyzet 
 ## Wiener-féle konstrukció
-![[Pasted image 20230403200011.png]]
+Egy másik konstrukciója a Wiener folyamatnak a Wiener-féle konstrukció:
+$$W(t) = \cfrac{t}{\sqrt{\pi}} X_0 + \sqrt{2} \sum_{n=1}^\infty \sum_{k = 2^{n-1}}^{2^n-1}\sqrt{\cfrac{2}{\pi}}\cfrac{sin(k*t)}{k} X_k$$
+- $t$ időváltozó
+- $X_k$ a $k.$ időpontban lévő [[Sztochasztikus folyamatok|sztochasztikus folyamat]]
+
+#Szeidl/sztochajegyzet 
 ## Lévy-Ciesielski féle konstrukció
 ![[Pasted image 20230403200041.png]]
 
-# [[fehérzaj]] [[spektrális sűrűségfüggvény|spektrális sűrűségfüggvénye]]
+#Szeidl/sztochajegyzet 
+# [[Fehérzaj folyamat|fehérzaj]] [[spektrális sűrűségfüggvény|spektrális sűrűségfüggvénye]]
 ![[Pasted image 20230403205914.png]]
 #Szeidl/sztochajegyzet 

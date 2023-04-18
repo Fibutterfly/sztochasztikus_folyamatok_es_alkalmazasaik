@@ -1,6 +1,6 @@
 ---
 tags: OE/ALKMAT/Sztocha 
-aliases: ["Gauss-folyamatok", "Gauss folyamat"]
+aliases: ["Gauss-folyamatok", "Gauss folyamat", "Gauss folyamatról"]
 ---
 # Gauss-folyamat
 Egy folyamatot Gauss folyamatnak nevezünk, ha a következő tulajdonságokkal rendelkezik:

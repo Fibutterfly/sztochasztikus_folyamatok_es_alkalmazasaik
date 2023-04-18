@@ -1,8 +1,8 @@
 ---
 tags: OE/ALKMAT/Sztocha 
-aliases: ["mozgóátlag", "mozgóátlag szűrő", "MA", "mozgóátlag-operátor", "mozgóátlag-szűrő"]
+aliases: ["mozgóátlag", "mozgóátlag modell", "MA", "mozgóátlag-operátor", "mozgóátlag-modell"]
 ---
-# mozgóátlag szűrő (MA)
+# mozgóátlag [[modell]] (MA)
 A mozgóátlag szűrőnek a következőt szokás hívni:
 $$x_t = d(B) \epsilon_t$$
 Ahol:
@@ -10,4 +10,3 @@ Ahol:
 	- $B^n(x_t) = x_{t-n}$
 - $\epsilon_t$ pedig [[Fehérzaj folyamat|fehérzaj]]
 - $x_t=\sum_{k = 1}^{q}(d_{k}\epsilon_{t-k})+\epsilon_t$
-
