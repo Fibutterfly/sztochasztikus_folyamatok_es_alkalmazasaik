@@ -31,16 +31,25 @@ Amennyiben a Wiener folyamat teljesíti, hogy $\sigma = 1$ akkor azt standard Wi
 - Rendelkezik Markov tulajdonsággal
 	- aktuális állapota azonnal meghatározza annak jövőbeni állapotát
 	- nincs memóriája az előző állapotokról
-
 #Szeidl/sztochajegyzet 
+- $\lim_{t \to \infty} \dfrac{W_t}{t}=0$ [[nagy számok erős törvénye]] szerint, 1 valószínűséggel
+- Sehol sem differenciálható
+#Ludwig/Szotchasztikus_differenciál 
 ## Standard-wiener folyamat plusz tulajdonságai
-- Standard Wiener folyamat végesdimenziós eloszlásainak sűrűségfüggvénye: $$\begin{aligned}
+- Standard Wiener folyamat véges dimenziós eloszlásainak sűrűségfüggvénye: $$\begin{aligned}
 f(y_1, \dots, y_m; t_1, \dots , t_n) &= (2\pi)^{-n/2}\left(t_1*\prod_{k=2}^n(t_n-t_{n-1}) \right)^{1/2} \cdot \\
 &\cdot e^{-\cfrac{1}{2} \left( \cfrac{y_1^2}{t_1}+\sum_{k=2}^n \cfrac{(y_n-y_{n-1})^2}{t_n - t_{n-1}} \right)}
 \end{aligned}$$
 	- $0 < t_1 < t_2 < \dots < t_n \infty$
 	- $y_1, \dots, y_n \in \mathbb{R}$ 
-
+#Szeidl/sztochajegyzet 
+- [[iterált logaritmus tétel|iterált logaritmus tételből]] következik, hogy:
+	- $\limsup_{t \to \infty} \dfrac{W_t}{\sqrt[2]{2*t*\ln(\ln(t))}}=1$
+	- $\liminf_{t \to \infty} \dfrac{W_t}{\sqrt[2]{2*t*\ln(\ln(t))}}=-1$
+	- ezek leírják a Wiener folyamat aszimptotikus viselkedését
+	- létezik olyan $t_0$ időpont, amelytől igaz, hogy: $-(1+ \epsilon)*\sqrt[2]{2*t*\ln(\ln(t))} \le W_t \le (1+ \epsilon)*\sqrt[2]{2*\ln(\ln(t))}$
+		- $\epsilon > 0$
+#Ludwig/Szotchasztikus_differenciál 
 # Wiener-folyamat konstrukciója
 A Wiener folyamat konstrukciójának általános alakja:
 $$W(t) = \sum_{k=0}^{\infty}X_k \int_0^t \phi_k (u) du$$

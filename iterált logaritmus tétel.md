@@ -1,16 +1,14 @@
 ---
 tags: OE/ALKMAT/Sztocha 
-aliases: ["iterált logaritmus formula"]
+aliases: ["iterált logaritmus formula","iterált logaritmus tételből"]
 ---
 # iterált logaritmus tétel
-Hányszor kell egy számot logaritmusozni egymás után.
-$$\log_b^n(x) = \cfrac{1}{\ln(b)} \ln^{n}(x) \log_b^n(x)$$
-
+A következő összefüggések $1$ valószínűséggel fennállnak
+$$\lim_{n \to \infty} \sup \dfrac{\sum_{i=1}^n(X_i) - n* E(X_n)}{\sqrt[2]{2*n*\ln(\ln(n))}} = + | \sigma|$$
+és
+$$\lim_{n \to \infty} \inf \dfrac{\sum_{i=1}^n(X_i) - n* E(X_n)}{\sqrt[2]{2*n*\ln(\ln(n))}} = - | \sigma|$$
 Ahol:
-
--   $b > 0$, $b \neq 1$ egy tetszőleges valós szám, ami a logaritmus alapja
--   $n > 0$ egy pozitív egész szám, ami azt jelöli, hogy hányszor alkalmazzuk a logaritmus műveletet
--   $x > 0$ egy pozitív valós szám, amelynek a logaritmusát szeretnénk kiszámolni
-
-A tétel tehát azt mondja ki, hogy az $x$ szám $n$-edik logaritmusát az $x$ szám természetes logaritmusának $n$-edik hatványának az $\frac{1}{\ln(b)}$ faktorral szorozva kapjuk meg.
-#chatGPT 
+- $VAR(X_n) = \sigma^2 < \infty$
+- $X_i$ független, azonos eloszlású [[valószínűségi változó|valószínűségi változók]]
+- $E(X_n) = E(X_1) = \dots = E(X_{n-1})$
+#Ludwig/Szotchasztikus_differenciál 
