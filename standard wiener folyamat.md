@@ -1,6 +1,6 @@
 ---
 tags: OE/ALKMAT/Sztocha 
-aliases: ["Brown mozgás","wiener", "wiener folyamat", "wiener folyamatra"]
+aliases: ["Brown mozgás","wiener", "wiener folyamat", "wiener folyamatra", "Wiener-folyamat","Wiener-folyamatot"]
 ---
 # wiener folyamat
 Akkor nevezünk egy folyamatot Wiener folyamatnak ($W(t), t\ge 0$), ha következő tulajdonságokat teljesítik

@@ -17,3 +17,6 @@ ahol:
 2. Megkeressük a $G_m$ sorozatot, amely eleget tesz a [[Wiener-Paley lemma|Wiener–Paley lemmának]]
 3. Majd minden függvényt átalakítunk úgy, hogy eleget tegyen a [[Doob általánosított egyenlőtlensége|Doob általánosított egyenlőtlenségének]]
 4. Ellenőrizzük, hogy eleget tesz-e a [[Doob-Meyer tétel|Doob-Meyer tételnek]]
+5. elvégezzük rajta az [[Ito-féle sztochasztikus integrál|Ito-féle sztochasztikus integrálást]] 
+
+#Ludwig/Szotchasztikus_differenciál 
