@@ -1,0 +1,5 @@
+![[lineáris szűrő#lineáris szűrő]]
+![[transzfer függvény#transzfer függvény]]
+![[spektrális sűrűségfüggvény#spektrális sűrűségfüggvény]]
+![[idősorok lineáris előrejelzése]]
+![[Wiener-szűrő]]

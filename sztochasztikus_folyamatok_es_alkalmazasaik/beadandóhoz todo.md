@@ -1,0 +1,95 @@
+# 1. rész
+- [x] Valószínűségi mező
+	- [x] Akkor X : Ω → R függvényt valószı́nűségi változónak hı́vunk.
+		- [x] Akkor X : Ω → R mérhető függvényt valószı́nűségi változónak hı́vunk.
+- [x] Sztochasztikus folyamatok kompatibilitási feltételei
+	- [x] t1 < t2 < · · · < tn vagy t1 < t2 < · · · < t∞ .
+		- [x] véges
+	- [x] Az időpillanatok közötti időközök meghatározottak és végesek vagy végtelenek.
+		- [x] nincs végtelen
+	- [x] A folyamat értékei időfüggők, és az időbeli elmozdulásokkal szembe-ni szimmetriára vonatkozó korlátozásokat kell teljesı́tenie. Például astacionárius folyamatok esetében az eloszlások nem változnak az időmúlásával, és az átlag és szórás időfüggetlen.
+		- [x] szimmetriás rész nem kell bele
+		- [x] eloszlásos rész nem kell bele
+		- [x] várható érték átlag helyett
+		- [x] szórásnak kell lennie
+	- [x] Erdogicitás nem kell
+- [x] Kovariancia függvény tulajdonságai
+	- [x] well formázás
+	- [x] Ha a két változó független, akkor az egyenlőség akkor és csak akkor áll fenn, ha az X állandó.
+		- [x] Ha a két változó állandó, akkor az egyenlőség akkor és csak akkor áll fenn, ha az X állandó.
+	- [x] Normálás: Ha X és Y normális eloszlásúak, akkor a kovarianciafüggvény teljesen meghatározza a két változó közötti kapcsolatot.
+		- [x] Ha X és Y együttesen normális eloszlásúak, akkor a kovarianciafüggvény teljesen meghatározza a két változó közötti kapcsolatot.
+	- [x] létezik a kurva szórás négyzet
+- [x] Gauss folyamat
+	- [x] stacionárius Gauss folyamat
+	- [x] Egy folyamatot Gauss folyamatnak nevezünk, ha a következő tulajdonságokkal rendelkezik:
+		- [x] Egy folyamatot stacionárius Gauss folyamatnak nevezünk, ha a következő tulajdonságokkal rendelkezik:
+	- [x] Az összes véges dimenziós eloszlása Gauss-eloszlású kell legyen. Ez azt jelenti, hogy az összes véges dimenziós eloszlásfüggvény szimmetrikus, és a karakterisztikus függvénye exponenciális alakú kell legyen.
+		- [x] Az összes véges dimenziós eloszlása Gauss-eloszlású kell legyen. Ez azt jelenti, hogy az összes véges dimenziós eloszlásfüggvény ~~szimmetrikus~~, és a karakterisztikus függvénye exponenciális kvadratikus alakú kell legyen.
+	- [x] Korreláció mátrixokat mind meg kell nézni, hogy pozitı́vak-e.
+		- [x] pozitív definit.
+	- [x] törölni
+> 			Az összes időpillanatra vonatkozó középérték és szórás azonos kell le-gyen. A folyamat homogénnek tekinthető. – Ezt homogenitás teszttel lehet ellenőrizni.Az összes időpillanatban értékeket vesz fel végtelen dimenziós vek-torokban. A végtelen dimenziós eloszlás azonban nem kell Gauss-eloszlásúnak lennie.
+- [x] Herglotz-tétel
+	- [x] ![[Pasted image 20230527170632.png]]
+- [x] Dirac delta
+	- [x] TÖRÖLNI
+- [x] Iterált logaritmus tétel
+	- [x] aljáról kitörölni azt a szart
+- [x] kompatibilítási feltétel
+	- [x] ![[Pasted image 20230527171221.png]]
+- [x] Stacionárius folyamatok
+	- [x] ![[Pasted image 20230527171339.png]]
+- [x] Tágabb értelemben stacionárius folyamat
+	- [x] ![[Pasted image 20230527171906.png]]
+- [x] Tesztelés tágabb értelemben vett stacionárius folyamatra
+	- [x] ![[Pasted image 20230527172105.png]]
+- [x] tágabb értelemben stacionárius eloszlásainak feltételei
+	- [x] törölni
+- [x] Stacionárius Gauss folyamatok (3.)
+	- [x] törölni
+- [x] Spektrál előállı́tás
+	- [x] ![[Pasted image 20230527172247.png]]
+- [x] Spektrális sűrűségfüggvény segı́tségével lévő stacionárius folyamat előállı́tása
+	- [x] ![[Pasted image 20230527172429.png]]
+- [x] fehérzaj
+	- [x] ![[Pasted image 20230527172509.png]]
+- [x] Fehérzaj folyamat spektrális sűrűségfüggvénye
+	- [x] példa
+- [x] Harmonikus folyamatok tulajdonságai
+	- [x] ![[Pasted image 20230527172551.png]]
+# 2. rész
+- [x] Lineáris folyamatok
+	- [x] ![[Pasted image 20230527172658.png]]
+- [x] Kauzális folyamat spektruma
+	- [x] ![[Pasted image 20230527172754.png]]
+- [x] Lineáris szűrő
+	- [x] ![[Pasted image 20230527172904.png]]
+- [x] transzfer függvény
+	- [x] ![[Pasted image 20230527172940.png]]
+- [x] Autókorreláció függvény spektruma
+	- [x] $r_X(k)$ definiálása
+- [x] parciális autokorreláció stacionárius folyamat esetén
+	- [x] konkrét formulát bele ollózni a jegyzetéből
+- [x] AR
+	- [x] ![[Pasted image 20230527173149.png]]
+- [x] MA
+	- [x] ![[Pasted image 20230527173211.png]]
+- [x] Mozgóátlag együttható
+	- [x] ![[Pasted image 20230527173258.png]]
+- [x] ARMA
+	- [x] ![[Pasted image 20230527173324.png]]
+- [x] ARMA modell karakterisztikus polinomja
+	- [x] ÉDES ISTENEM VALAHONNAN SZEDD MÁR KI JÓL
+	- [x] ![[Pasted image 20230527173404.png]]
+	- [x] ![[Pasted image 20230527173439.png]]
+- [x] Paraméterek becslése
+	- [x] ![[Pasted image 20230527173510.png]]
+# 3
+- [ ] Ito-féle sztochasztikus integrál
+	- [ ] ![[Pasted image 20230527180647.png]]
+		- [ ] ez amúgy nem nagyon nyerte el a tetszését
+- [x] Ito Lemma
+	- [x] ![[Pasted image 20230527180719.png]]
+- [x] Doob-Meyer tétel
+	- [x] ![[Pasted image 20230527180739.png]]

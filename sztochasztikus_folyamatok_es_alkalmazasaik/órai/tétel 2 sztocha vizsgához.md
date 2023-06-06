@@ -1,0 +1,7 @@
+![[tágabb értelemben stacionárius#tágabb értelemben stacionárius]]
+![[várható érték függvény]]
+![[kovarianciafüggvény#kovarianciafüggvény]]
+![[autokovariancia függvény]]
+![[keresztkovariancia függvény]]
+![[harmonikus folyamat#harmonikus folyamat]]
+![[harmonikus folyamat#harmonikus folyamat tulajdonságai]]

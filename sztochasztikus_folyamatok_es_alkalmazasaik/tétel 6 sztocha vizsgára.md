@@ -1,0 +1,5 @@
+![[idősoranalízis elemei]]
+![[várható érték#Várható érték becslése]]
+![[várható érték#várható érték tulajdonságai]]
+![[kovarianciafüggvény#Kovarianciafüggvény becslése]]
+![[kovarianciafüggvény#Kovarianciafüggvény tulajdonságai]]

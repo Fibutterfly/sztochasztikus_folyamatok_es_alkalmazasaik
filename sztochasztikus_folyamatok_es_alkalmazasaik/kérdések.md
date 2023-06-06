@@ -1,0 +1,1 @@
+- A beadandó fogalmainak a bemutatását érdemes ennyire távolról indítani vagy, amit a valószínűség számítás és matematikai statisztika órán teljesítettünk vehetjük úgy, hogy arra nem érdemes kitérni?

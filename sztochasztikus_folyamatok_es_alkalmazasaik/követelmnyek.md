@@ -1,0 +1,4 @@
+- beadandó
+- 3 téma
+- jegy 40-45%-át adja
+- csak 8-9 oldalas esszé, lehetőleg demonstrációval

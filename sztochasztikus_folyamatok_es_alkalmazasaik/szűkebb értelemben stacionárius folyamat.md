@@ -1,0 +1,14 @@
+---
+tags: OE/ALKMAT/Sztocha 
+aliases: ["szűkebb értelemben stacionáriusnak", "szűkebb értelemben vett stacionárius folyamat"]
+---
+
+# szűkebb értelemben [[tágabb értelemben stacionárius|stacionárius]] folyamat
+Legyen $\{X_t, t \in \mathcal{T}\}$, ahol
+- $X$ a $t$ időponthoz tartozó [[Sztochasztikus folyamatok|sztochasztikus folyamat]]
+Ahhoz, hogy valamit szűkebb értelemben stacionáriusnak nevezzünk teljesülnie kell, hogy $(X_{t_1}, \dots , X_{t_n})$ és $(X_{t_{1+t}}, \dots, X_{t_n + t})$ [[valószínűségi változó|valószínűségi változók]]  együttes eloszlása megegyezik.
+#Szeidl/sztochajegyzet 
+
+# szűkebb értelemben [[tágabb értelemben stacionárius|stacionárius]] folyamat tesztelése
+Legyen [[tágabb értelemben stacionárius]] és egyezzenek meg a [[valószínűségi változó]]k együttes eloszlása.
+#Szeidl/sztochajegyzet 
