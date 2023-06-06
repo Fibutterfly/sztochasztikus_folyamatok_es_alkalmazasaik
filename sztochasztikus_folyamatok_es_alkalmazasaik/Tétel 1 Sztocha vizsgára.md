@@ -1,8 +1,8 @@
 ![[Sztochasztikus folyamatok#Sztochasztikus folyamatok fogalma]]
-![[végesdimenziós eloszlások]]
+![[Sztochasztikus folyamatok végesdimenziós eloszlásai#Sztochasztikus folyamatok végesdimenziós eloszlásai]]
 ![[valószínűségszámítás alaptétele#Kolmogorov-tétel]]
 ![[szűkebb értelemben stacionárius folyamat#szűkebb értelemben tágabb értelemben stacionárius stacionárius folyamat]]
 ![[Stacionárius Gauss-folyamat#Gauss-folyamat]]
-![[Független növekményű folyamatok]]
-![[Homogén Poisson-folyamat]]
-(def és konstrukció)
+![[Független növekményű folyamatok#Független növekményű folyamatok]]
+![[Homogén Poisson-folyamat#Homogén Poisson folyamat konstrukciója]]
+![[Homogén Poisson-folyamat#Homogén Poisson folyamat]]

@@ -1,5 +1,5 @@
 ![[Sztochasztikus folyamatok#Sztochasztikus folyamatok fogalma]]
-![[végesdimenziós eloszlások]]
+![[Sztochasztikus folyamatok végesdimenziós eloszlásai#Sztochasztikus folyamatok végesdimenziós eloszlásai]]
 ![[kovariancia#kovariancia]]
 ![[kovariancia#korreláció]]
 ![[kovariancia#kovariancia mátrix]]
