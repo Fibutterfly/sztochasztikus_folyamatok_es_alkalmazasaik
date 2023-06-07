@@ -1,6 +1,7 @@
 ---
-tags: OE/ALKMAT/Sztocha 
+tags: OE/ALKMAT/Sztocha OE/ALKMAT/Sztocha/4tétel 
 aliases: [""]
+TARGET DECK: 02::Sztocha
 ---
 # parciális [[autokorrelációs függvény|autokorreláció]]
 $Z_1, \dots, Z_k$ [[valószínűségi változó|valószínűségi változók]] melletti parciális korrelációnak nevezzük a következő összefüggést:
@@ -20,3 +21,20 @@ $$\rho_k = CORR(X_t - \widehat{X}_t, X_{t-k} - \widehat{X}_{t}) = \cfrac{COV(X_t
 - $\widehat{X}_t = \widehat{X}_t(X_{t-1}, \dots, X_{t-k+1})$
 - $D(X_t - \hat{X}_t) > 0, D(X_{t-k} - \hat{X}_t) > 0$.
 #Szeidl/sztochajegyzet 
+
+# Kártyák
+START
+Basic
+Front:
+Parciális autokorreláció
+Back:
+$Z_1, \dots, Z_k$ [[valószínűségi változó|valószínűségi változók]] melletti parciális korrelációnak nevezzük a következő összefüggést:
+$$\rho = CORR(X - \hat{X}, Y - \hat{Y}) = \cfrac{COV(X-\hat{X}, Y - \hat{Y})}{D(X - \hat{X})D(Y - \hat{Y})}$$
+Ahol:
+- $X,Y,Z$ [[valószínűségi változó|valószínűségi változók]]
+- $\hat{X} = \hat{X}(Z_1, \dots, Z_k), \hat{Y} = \hat{Y}(Z_1, \dots, Z_k)$
+- $D(X - \hat{X}) > 0, D(Y - \hat{Y}) > 0$.
+
+Megmutatja az $X$ és $Y$ közötti kapcsolat erősségét azután, hogy mindkét változóban kiküszöböltük a $Z$ [[valószínűségi változó|valószínűségi változók]] hatását.
+<!--ID: 1686170330137-->
+END

@@ -1,15 +1,16 @@
 ---
-tags: OE/ALKMAT/Sztocha 
+tags: OE/ALKMAT/Sztocha OE/ALKMAT/Sztocha/2tétel 
 aliases: ["kovarianciafüggvényére"]
+TARGET DECK: 02::Sztocha
 ---
 # kovarianciafüggvény
-$$ \begin{aligned}
+$$ \begin{align}
 
-R_X(u) &= \operatorname{cov}(X_t, X_{t-u}) \\
-
-&= E[(X_t - E(X_t))(X_{t-u}-E(X_{t-u}))]
-
-\end{aligned} $$
+	\begin{aligned}R_X(s,t)&= \\R_X(u) &= \operatorname{cov}(X_t, X_{t-u}) \\
+	
+		&= E[(X_t - E(X_t))(X_{t-u}-E(X_{t-u}))]
+	\end{aligned} \tag{K.1}
+\end{align} $$
 Ez itt nem a kovarianciamátrixot fogja vissza adni, hanem az eltérés közötti összefüggést.
 #Szeidl/sztochajegyzet 
 
@@ -48,3 +49,19 @@ Ahol:
 - $T$ hosszú folyamatunk van
 - $k$ a "késeltetés" két megfigyelés között
 - $\mu_X$ a [[várható érték]], ha ez nem ismert érdemes becsülni.
+
+# kártya
+START
+Basic
+Front:
+Kovariancia függvény
+Back:
+$$ \begin{align}
+
+	\begin{aligned}R_X(s,t)&= \\R_X(u) &= \operatorname{cov}(X_t, X_{t-u}) \\
+	
+		&= E[(X_t - E(X_t))(X_{t-u}-E(X_{t-u}))]
+	\end{aligned} \tag{K.1}
+\end{align} $$
+<!--ID: 1686162748470-->
+END

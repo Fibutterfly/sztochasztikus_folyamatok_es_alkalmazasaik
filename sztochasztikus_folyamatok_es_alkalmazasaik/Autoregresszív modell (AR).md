@@ -1,6 +1,7 @@
 ---
-tags: OE/ALKMAT/Sztocha 
+tags: OE/ALKMAT/Sztocha OE/ALKMAT/Sztocha/4tétel 
 aliases: ["Autoregresszív", "AR", "Autoregresszív modell"]
+TARGET DECK: 02::Sztocha
 ---
 # Autoregresszív [[modell]] (AR)
 A p-edrendű autoregresszív modellnek a következőt hívjuk:
@@ -39,3 +40,48 @@ Ahol:
 - $c$ az [[autoregressziós együttható]]
 
 #Budai/Idősorok_osztályozása 
+
+# AR autokorrelációs függvénye
+$$\begin{align}
+	&x_{t - \lambda}*x_t &&= \sum_{k=1}^p c_p*x_{t-\lambda}*x_{t-k} \tag{ARAkF.1} \\
+	&R_k &&= \sum_{i=1}^p c_i*R_{k-i} \tag{ARAkF.2}
+\end{align}$$
+- felírjuk (1)-es módban
+- tagonként várható értéket képzünk
+- $c$ [[autoregressziós együttható]]
+- $R_k$ [[autokorrelációs függvény|autokorreláció]]
+- $x_t$ $t$ időpontban lévő realizációja a [[tágabb értelemben stacionárius|stacionárius]] folyamatnak
+
+#Michelberger/alkalmazott_folyamatstatisztika 
+
+# Kártyák
+START
+Basic
+Front:
+AR autokorrelációs függvénye
+Back:
+$$\begin{align}
+	&x_{t - \lambda}*x_t &&= \sum_{k=1}^p c_p*x_{t-\lambda}*x_{t-k} \tag{ARAkF.1} \\
+	&R_k &&= \sum_{i=1}^p c_i*R_{k-i} \tag{ARAkF.2}
+\end{align}$$
+- felírjuk (1)-es módban
+- tagonként várható értéket képzünk
+- $c$ [[autoregressziós együttható]]
+- $R_k$ [[autokorrelációs függvény|autokorreláció]]
+- $x_t$ $t$ időpontban lévő realizációja a [[tágabb értelemben stacionárius|stacionárius]] folyamatnak
+<!--ID: 1686168908063-->
+END
+
+START
+Basic
+Front:
+AR spektruma
+Back:
+$$g_X(\lambda) = \dfrac{\sigma^2_\epsilon}{2*\pi} * \dfrac{1}{|P(e^{i*\lambda})|^2}= \dfrac{\sigma^2_\epsilon}{2*\pi} * \dfrac{1}{|1- c*e^{i*\lambda}|^2}$$
+Ahol:
+- $g_X$ az $X$ sztochasztikus folyamathoz tartozó AR függvény [[spektrális sűrűségfüggvény|spektrális sűrűségfüggvénye]]
+- $\sigma^2_\epsilon$ az $\epsilon$ [[Fehérzaj folyamat|fehérzajhoz]] tartozó szórás négyzet
+- $P(e^{i*\lambda})$ az AR karakterisztikus polinomja
+- $c$ az [[autoregressziós együttható]]
+<!--ID: 1686168908070-->
+END
