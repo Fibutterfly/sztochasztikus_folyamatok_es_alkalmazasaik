@@ -1,5 +1,5 @@
 ---
-tags: OE/ALKMAT/Sztocha OE/ALKMAT/Sztocha/4tétel 
+tags: OE/ALKMAT/Sztocha OE/ALKMAT/Sztocha/4tétel OE/ALKMAT/Sztocha/fontos_fogalom 
 aliases: [""]
 TARGET DECK: 02::Sztocha
 ---

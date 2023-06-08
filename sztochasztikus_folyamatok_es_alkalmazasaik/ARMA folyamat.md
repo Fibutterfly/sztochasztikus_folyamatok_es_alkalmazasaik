@@ -1,6 +1,7 @@
 ---
-tags: OE/ALKMAT/Sztocha 
+tags: OE/ALKMAT/Sztocha OE/ALKMAT/Sztocha/fontos_fogalom 
 aliases: ["ARMA modell"]
+TARGET DECK: 02::Sztocha
 ---
 # ARMA folyamat
 Az ARMA folyamat előállítása az [[mozgóátlag modell (MA)|mozgóátlag modell]] és az [[Autoregresszív modell (AR)|autoregresszív modell]] segítségével történik :
@@ -29,3 +30,21 @@ Az ARMA modellek paraméterbecslési módszerei közé tartoznak:
 
 Fontos megjegyezni, hogy a különböző módszerek eredményei eltérőek lehetnek, és a választásuk a modellhez kapcsolódó adatok és a vizsgálat céljától függenek.
 #chatGPT 
+
+# kártya
+START
+Basic
+Front:
+ARMA folyamat
+Back:
+Az ARMA folyamat előállítása az [[mozgóátlag modell (MA)|mozgóátlag modell]] és az [[Autoregresszív modell (AR)|autoregresszív modell]] segítségével történik :
+$$AR|MA(p,q) = \sum_{k = 1}^p (c_k x_{t-k}) + \sum_{k=1}^q(d_k \epsilon_{t-k}) + \epsilon_t$$
+- $p,q \in \mathbb{Z}^+$
+	- $p$ az [[Autoregresszív modell (AR)|autoregresszív modell]] rendje
+	- $q$ a [[mozgóátlag modell (MA)|mozgóátlag modell]] rendje
+- $c_k$ a $t-k.$ időponthoz tartozó [[autoregressziós együttható]]
+- $x_k$ a $k.$ időponthoz tartozó [[tágabb értelemben stacionárius|stacionárius folyamat]] értéke
+- $d_k$ a $t-k.$ időponthoz tartozó [[mozgóátlag együttható]]
+- $\epsilon_t$ [[Fehérzaj folyamat|fehérzaj]]
+<!--ID: 1686259816374-->
+END

@@ -1,5 +1,5 @@
 ---
-tags: OE/ALKMAT/Sztocha OE/ALKMAT/Sztocha/2tétel OE/ALKMAT/Sztocha/3tétel 
+tags: OE/ALKMAT/Sztocha OE/ALKMAT/Sztocha/2tétel OE/ALKMAT/Sztocha/3tétel OE/ALKMAT/Sztocha/fontos_fogalom 
 aliases: ["stacionárius", "autó-kovariancia fügvény", "stacionárius folyamat"]
 TARGET DECK: 02::Sztocha
 ---
@@ -24,7 +24,7 @@ Ahol a következők a következőket jelenti:
 - ARMA
 - ARIMA
 
-# [[Spektrális sűrűségfüggvény]] segítségével lévő stacionárius folyamat előállítása
+# [[spektrális sűrűségfüggvény]] segítségével lévő stacionárius folyamat előállítása
 $$X_t = \mu_X + \int_{- \pi} ^\pi e^{it\lambda} d Z(\lambda)$$
 $$X_t = \mu_X + \sum_{k=-\infty}^{\infty}Z_ke^{i*t*\lambda_k}$$
 - $\mu_X$ a [[várható érték]]
@@ -56,7 +56,7 @@ END
 START
 Basic
 Front:
-[[Spektrális sűrűségfüggvény]] segítségével lévő stacionárius folyamat előállítása
+[[spektrális sűrűségfüggvény]] segítségével lévő stacionárius folyamat előállítása
 Back:
 
 $$X_t = \mu_X + \int_{- \pi} ^\pi e^{it\lambda} d Z(\lambda)$$

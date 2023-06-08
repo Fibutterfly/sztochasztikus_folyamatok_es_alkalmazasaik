@@ -1,5 +1,5 @@
 ![[lineáris szűrő#lineáris szűrő]]
 ![[transzfer függvény#transzfer függvény]]
 ![[spektrális sűrűségfüggvény#spektrális sűrűségfüggvény]]
-![[idősorok lineáris előrejelzése]]
-![[Wiener-szűrő]]
+![[idősorok lineáris előrejelzése#idősorok lineáris előrejelzése]]
+![[Wiener-szűrő#standard wiener folyamat Wiener -szűrő]]

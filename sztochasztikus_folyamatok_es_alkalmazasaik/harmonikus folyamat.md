@@ -1,6 +1,6 @@
 ---
-tags: OE/ALKMAT/Sztocha OE/ALKMAT/Sztocha/2tétel 
-aliases:
+tags: OE/ALKMAT/Sztocha OE/ALKMAT/Sztocha/2tétel OE/ALKMAT/Sztocha/fontos_fogalom 
+aliases: ["véletlen koszinuszfolyamat"]
 TARGET DECK: 02::Sztocha
 ---
 # harmonikus folyamat

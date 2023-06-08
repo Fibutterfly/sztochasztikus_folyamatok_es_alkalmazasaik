@@ -1,6 +1,7 @@
 ---
-tags: OE/ALKMAT/Sztocha 
+tags: OE/ALKMAT/Sztocha OE/ALKMAT/Sztocha/6tétel 
 aliases: ["várható értékű", "várható értéke", "várható értékei"]
+TARGET DECK: 02::Sztocha
 ---
 # várható érték feltétele
 ## diszkrét esetben
@@ -27,6 +28,33 @@ $$\bar{X} = \cfrac{1}{T} \sum_{i = 1}^{T}X_i$$
 - $T$ az összes idő megfigyelése
 - $X$ a [[Sztochasztikus folyamatok|sztochasztikus folyamat]].
 Mint minden más statisztikai becsléstől ettől is elvárjuk a torzítatlanságot.
-## Torzítatlansága a várható érték becslésének
+# Torzítatlansága a várható érték becslésének
 $$E(\bar{X}) = \cfrac{1}{T} \sum_{i = 1}^{T}X_i = \cfrac{1}{T} \sum_{i=1}^T \mu_X = \mu_X$$
 Így látszódik, hogy torzítatlan.
+
+# kártyák
+START
+Basic
+Front:
+Várható érték becslése
+Back:
+Legyen a várható érték becslése:
+$$\bar{X} = \cfrac{1}{T} \sum_{i = 1}^{T}X_i$$
+- $T$ az összes idő megfigyelése
+- $X$ a [[Sztochasztikus folyamatok|sztochasztikus folyamat]].
+Mint minden más statisztikai becsléstől ettől is elvárjuk a torzítatlanságot.
+<!--ID: 1686247060468-->
+END
+
+START
+Basic
+Front:
+Várható érték tulajdonságai
+Back:
+- Ha $X$ az $1$ valószínűséggel [[korlátos]] [[valószínűségi változó]], akkor van olyan $x_1$ és $x_2$ konstans, hogy $P(x_1 \le X \le x_2)=1$ akkor $x_1 \le E(X) \le x_2$
+- $E(cX)=cE(X)$
+- $P(X=c) = 1 \to E(X)=c$
+- $E(X+Y) = E(X) + E(Y)$
+- $E(X*Y)=E(X)*E(Y)$
+<!--ID: 1686247060478-->
+END

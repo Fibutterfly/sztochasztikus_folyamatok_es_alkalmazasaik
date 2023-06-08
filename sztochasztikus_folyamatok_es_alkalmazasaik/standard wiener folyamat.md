@@ -1,6 +1,7 @@
 ---
-tags: OE/ALKMAT/Sztocha 
+tags: OE/ALKMAT/Sztocha OE/ALKMAT/Sztocha/8tétel OE/ALKMAT/Sztocha/fontos_fogalom 
 aliases: ["Brown mozgás","wiener", "wiener folyamat", "wiener folyamatra", "Wiener-folyamat","Wiener-folyamatot"]
+TARGET DECK: 02::Sztocha
 ---
 # wiener folyamat
 Akkor nevezünk egy folyamatot Wiener folyamatnak ($W(t), t\ge 0$), ha következő tulajdonságokat teljesítik
@@ -82,3 +83,109 @@ $$W(t) = S_0(t)X_0 + \sum_{n=1}^{\infty} \sum_{k \text{ (páratlan) }=1 }^{2^{n}
 # [[Fehérzaj folyamat|fehérzaj]] [[spektrális sűrűségfüggvény|spektrális sűrűségfüggvénye]]
 ![[Pasted image 20230403205914.png]]
 #Szeidl/sztochajegyzet 
+
+# kártya
+START
+Basic
+Front:
+Wiener folyamat
+Back:
+Akkor nevezünk egy folyamatot Wiener folyamatnak ($W(t), t\ge 0$), ha következő tulajdonságokat teljesítik
+- független növekményű [[Stacionárius Gauss-folyamat|Gauss folyamat]]
+- Trajektóriái 1 valószínűséggel folytonosak
+- $W(0) = 0$
+- [[várható érték|Várható értéke]] 0, minden $t$-re
+- $VAR(W(t)) = \sigma^2 * t$
+- $t$ időváltozó, $t \ge 0$
+<!--ID: 1686256704936-->
+END
+
+START
+Basic
+Front:
+Wiener folyamat tulajdonságai
+Back:
+- $$COV(W(t), W(s)) = \min(s,t)$$
+	- $t,s \ge 0$ ezek egymástól független időpontokat jelölnek a Wiener folyamat útján
+- $$VAR(W(t)-W(s))=|t-s|$$
+	- $t,s \ge 0$ ezek egymástól független időpontokat jelölnek a Wiener folyamat útján
+- $\overline{W}(t) = -W(t)$ is Wiener-folyamat
+	- $t \ge 0$
+- $\overline{W}(t) = W(t+s_0) - W(s_0)$ is Wiener-folyamat, amely nem függ $W_s, 0 \le s \le s_0$ folyamattól
+	- $t \ge 0$
+- $cW(t/c^2)$ Wiener folyamat
+	- $c > 0$ valamilyen konstans
+	- $t \ge 0$ időváltozó
+	- automodalitásnak nevezzük
+- Rendelkezik Markov tulajdonsággal
+	- aktuális állapota azonnal meghatározza annak jövőbeni állapotát
+	- nincs memóriája az előző állapotokról
+- $\lim_{t \to \infty} \dfrac{W_t}{t}=0$ [[nagy számok erős törvénye]] szerint, 1 valószínűséggel
+- Sehol sem differenciálható
+<!--ID: 1686256704942-->
+END
+
+START
+Basic
+Front:
+Standard Wiener folyamat + tulajdonságait
+Back:
+- Standard Wiener folyamat véges dimenziós eloszlásainak sűrűségfüggvénye: $$\begin{aligned}
+f(y_1, \dots, y_m; t_1, \dots , t_n) &= (2\pi)^{-n/2}\left(t_1*\prod_{k=2}^n(t_n-t_{n-1}) \right)^{1/2} \cdot \\
+&\cdot e^{-\cfrac{1}{2} \left( \cfrac{y_1^2}{t_1}+\sum_{k=2}^n \cfrac{(y_n-y_{n-1})^2}{t_n - t_{n-1}} \right)}
+\end{aligned}$$
+	- $0 < t_1 < t_2 < \dots < t_n \infty$
+	- $y_1, \dots, y_n \in \mathbb{R}$ 
+- [[iterált logaritmus tétel|iterált logaritmus tételből]] következik, hogy:
+	- $\limsup_{t \to \infty} \dfrac{W_t}{\sqrt[2]{2*t*\ln(\ln(t))}}=1$
+	- $\liminf_{t \to \infty} \dfrac{W_t}{\sqrt[2]{2*t*\ln(\ln(t))}}=-1$
+	- ezek leírják a Wiener folyamat aszimptotikus viselkedését
+	- létezik olyan $t_0$ időpont, amelytől igaz, hogy: $-(1+ \epsilon)*\sqrt[2]{2*t*\ln(\ln(t))} \le W_t \le (1+ \epsilon)*\sqrt[2]{2*\ln(\ln(t))}$
+		- $\epsilon > 0$
+<!--ID: 1686256704947-->
+END
+
+START
+Basic
+Front:
+Wiener-folyamat konstrukciója általában
+Back:
+A Wiener folyamat konstrukciójának általános alakja:
+$$W(t) = \sum_{k=0}^{\infty}X_k \int_0^t \phi_k (u) du$$
+- $t$ az idő változó
+	- $t$-t elegendő $[0,1]$ intervallumon megadni, mert független növekményű [[Stacionárius Gauss-folyamat|Gauss folyamatról]] van szó 
+- $X_k \sim N(0,1)$
+- $\phi$ ortonormált bázis a $\mathcal{L}^2[0,1]$ [[L2 függvénytér|L2 függvénytéren]]
+<!--ID: 1686256704952-->
+END
+
+START
+Basic
+Front:
+Wiener-féle konstrukciója a wiener folyamatnak
+Back:
+Egy másik konstrukciója a Wiener folyamatnak a Wiener-féle konstrukció:
+$$W(t) = \cfrac{t}{\sqrt{\pi}} X_0 + \sqrt{2} \sum_{n=1}^\infty \sum_{k = 2^{n-1}}^{2^n-1}\sqrt{\cfrac{2}{\pi}}\cfrac{sin(k*t)}{k} X_k$$
+- $t$ időváltozó
+- $X_k$ a $k.$ időpontban lévő [[Sztochasztikus folyamatok|sztochasztikus folyamat]]
+<!--ID: 1686256704957-->
+END
+
+START
+Basic
+Front:
+Wiener folyamatnak Lévy-Ciesielski-féle konstrukciója
+Back:
+$$W(t) = S_0(t)X_0 + \sum_{n=1}^{\infty} \sum_{k \text{ (páratlan) }=1 }^{2^{n}}S_{k2^{-n}}(t)X_{k2^{-n}}$$
+- Ahol $S_k(t)$-t Schauder-függvények: $$S_k(t) = \int_{0}^t h_k(u)du$$
+	- És $h_k$ pedig Haar-függvényt jelent: $$\begin{aligned}
+	 h_0(x) & \equiv 1 \\
+	 h_{k 2^{-n}}(x) & = \begin{cases}
+		 +2^{(n-1)/2}, & (k-1)2^{-n} \le x < k2^{-n}, \\
+		 -2^{(n-1)/2}, & k2^{-n} \le x < (k+1)2^{-n}, \\
+		 0 & \text{egyébként}
+	 \end{cases}
+ \end{aligned}$$
+- $X \sim N(0,1)$
+<!--ID: 1686256704962-->
+END

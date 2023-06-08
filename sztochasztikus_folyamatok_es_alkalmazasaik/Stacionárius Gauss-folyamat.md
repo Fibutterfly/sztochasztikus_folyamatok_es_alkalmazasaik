@@ -1,5 +1,5 @@
 ---
-tags: OE/ALKMAT/Sztocha OE/ALKMAT/Sztocha/1tétel
+tags: OE/ALKMAT/Sztocha OE/ALKMAT/Sztocha/1tétel OE/ALKMAT/Sztocha/fontos_fogalom 
 aliases: ["Gauss-folyamatok", "Gauss folyamat", "Gauss folyamatról"]
 TARGET DECK: 02::Sztocha
 ---
